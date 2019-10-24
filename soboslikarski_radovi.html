@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<title>RBI-gradnja d.o.o. | Usluge</title>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+ 	<meta name="description" content="RBI- gradnja d.o.o. tvrtka je koja pruža razne građevinske usluge." >
+    <meta name="keywords" content="gradnja, građevinske, usluge, soboslikarski, radovi, knauf, sistemi, fasaderski, štukaturski, radovi, građevina">
+    <meta name="author" content="Martin Lacko">
+ 	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+ 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 	<link rel="icon" href="images/icon.jpg">
+ 	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+ 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="fade.js"></script>
+  <script src="js/lightbox-plus-jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/lightbox.js"></script>
+ </head>
+
+ <body>
+
+ 	<header>
+ 		<div class="header">
+ 			<div class="menu_section">
+ 			  <a href="index.html"><img src="images/logo.png" class="logo"></a>
+ 			 <nav>
+ 			 	<li><a href="index.html">Početna</a></li>
+ 			 	<li><a href="o_nama.html">O nama</a></li>
+ 			 	<li><a href="usluge.html" id="selected">Usluge</a></li>
+ 			 	<li><a href="kontakt.html">Kontakt</a></li>
+ 			 </nav>
+ 			</div>
+            <p class="heading">Naše usluge</p><br style="clear: both;">
+            <p data-aos="fade-right" data-aos-duration="1200" class="heading2">SOBOSLIKARSKI RADOVI</p>
+ 		</div>
+
+    <!--responsive menu -->
+    <div class="hamburger-menu">
+      <div class="bar"></div>  
+    </div>    
+            
+    <script>
+    (function () {
+      $('.hamburger-menu').on('click', function() {
+      $('.bar').toggleClass('animate');
+      var mobileNav = $('.mobile-nav');
+      mobileNav.toggleClass('hide show');
+    })
+    })();    
+    </script>
+        
+        
+    <div class="mobile-nav hide">
+    <ul>
+      <div class="li"><a href="index.html">početna</a></div>
+      <div class="li"><a href="o_nama.html">o nama</a></div>
+      <div class="li"><a href="usluge.html">usluge</a></div>
+      <div class="li"><a href="kontakt.html">kontakt</a></div>
+    </ul>
+   </div>       
+   <!--end of responsive menu -->
+    
+ 	</header>
+
+  <div class="gallery_section">
+  
+    <a href="soboslikarski_radovi/img1.jpg" data-lightbox="roadtrip"><img src="soboslikarski_radovi/img1.jpg" class="image"></a>
+    <a href="soboslikarski_radovi/img2.jpg" data-lightbox="roadtrip"><img src="soboslikarski_radovi/img2.jpg" class="image"></a>
+    <a href="soboslikarski_radovi/img3.jpg" data-lightbox="roadtrip"><img src="soboslikarski_radovi/img3.jpg" class="image"></a>
+    <a href="soboslikarski_radovi/img4.jpg" data-lightbox="roadtrip"><img src="soboslikarski_radovi/img4.jpg" class="image"></a>
+    <a href="soboslikarski_radovi/img5.jpg" data-lightbox="roadtrip"><img src="soboslikarski_radovi/img5.jpg" class="image"></a>  
+
+  </div>
+
+  <a href="usluge.html"><div class="btn_back">Natrag na usluge</div></a>
+
+
+    <footer>
+ 		<img src="images/decoration1.jpg" class="decoration">
+ 		<p class="year"></p>
+ 		<script type="text/javascript">
+ 			const year = new Date().getFullYear();
+ 			document.querySelector('.year').innerHTML = `RBI - gradnja d.o.o. &copy; All rights reserved | ${year}`;
+ 		</script>
+ 	  </footer>
+
+    <!-- AOS -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  	
+    <script>
+		AOS.init({
+			easing: 'ease',
+			once: true,
+		});
+		AOS.refresh();
+	</script>
+
+ </body>
+ </html>

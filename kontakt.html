@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<title>RBI-gradnja d.o.o. | Kontakt</title>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+ 	<meta name="description" content="RBI- gradnja d.o.o. tvrtka je koja pruža razne građevinske usluge." >
+    <meta name="keywords" content="gradnja, građevinske, usluge, soboslikarski, radovi, knauf, sistemi, fasaderski, štukaturski, radovi, građevina">
+    <meta name="author" content="Martin Lacko">
+ 	<link rel="stylesheet" href="css/style.css">
+ 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 	<link rel="icon" href="images/icon.jpg">
+ 	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+ 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="js/fade.js"></script>
+ </head>
+
+ <body>
+
+ 	<header>
+ 		<div class="header">
+ 			<div class="menu_section">
+              <a href="index.html"><img src="images/logo.png" class="logo"></a>
+ 			 <nav>
+ 			 	<li><a href="index.html">Početna</a></li>
+ 			 	<li><a href="o_nama.html">O nama</a></li>
+ 			 	<li><a href="usluge.html">Usluge</a></li>
+ 			 	<li><a href="kontakt.html" id="selected">Kontakt</a></li>
+ 			 </nav>
+ 			</div>
+ 			<div data-aos="fade-right" data-aos-duration="1000" class="map">
+ 				<iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ8w0hdyBUb0cRFDIaUAF4NV8&key=AIzaSyCvmqtiRPnQp1BanWmj8IRsO4IRdsabYkw" allowfullscreen></iframe>
+ 			</div>
+ 		</div>
+
+        <!--responsive menu -->
+    <div class="hamburger-menu">
+      <div class="bar"></div>  
+    </div>    
+            
+    <script>
+    (function () {
+      $('.hamburger-menu').on('click', function() {
+      $('.bar').toggleClass('animate');
+      var mobileNav = $('.mobile-nav');
+      mobileNav.toggleClass('hide show');
+    })
+    })();    
+    </script>
+        
+        
+    <div class="mobile-nav hide">
+    <ul>
+      <div class="li"><a href="index.html">početna</a></div>
+      <div class="li"><a href="o_nama.html">o nama</a></div>
+      <div class="li"><a href="usluge.html">usluge</a></div>
+      <div class="li"><a href="kontakt.html">kontakt</a></div>
+    </ul>
+   </div>       
+   <!--end of responsive menu -->
+        
+ 	</header>
+
+    <div data-aos="fade-up" data-aos-duration="1000" class="contact_section">
+    	 <img src="images/decoration.jpg" class="decoration">
+
+    	 <h5>POŠALJITE NAM PORUKU - KONTAKTIRAJTE NAS</h5>
+
+    	<div class="form_section">
+    		<form method="post" accept-charset="utf-8" action="kontakt.php">
+    			<input type="text" name="ime" placeholder="Ime">
+    			<input type="text" name="prezime" placeholder="Prezime">
+    			<input type="email" name="email" placeholder="E-mail">
+    			<textarea name="poruka" placeholder="Što vas zanima?"></textarea>
+    			<input type="submit" name="button" value="Pošalji" class="button">
+    		</form>
+    	</div>
+
+    	<div data-aos="fade-up" data-aos-duration="2200" class="contact_info_section">
+    		<h4>KONTAKT PODACI:</h4>
+    	  <div class="contact_info">
+    		<p><b>Direktor:</b> Ivica Rušec</p><br>
+    		<p><b>Mobitel:</b> 098 792 286</p><br>
+    		<p><b>E-mail:</b> ivica.rusec@gmail.com</p><br>
+    		<p><b>Lokacija:</b> Vladimira Nazora 23, 42206 Petrijanec </p>
+    	  </div>
+    	</div>
+
+    </div>
+
+    <footer>
+ 		<img src="images/decoration1.jpg" class="decoration">
+ 		<p class="year"></p>
+ 		<script type="text/javascript">
+ 			const year = new Date().getFullYear();
+ 			document.querySelector('.year').innerHTML = `RBI - gradnja d.o.o. &copy; All rights reserved | ${year}`;
+ 		</script>
+ 	</footer>
+
+
+    <!-- AOS -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  	
+    <script>
+		AOS.init({
+			easing: 'ease',
+			once: true,
+		});
+		AOS.refresh();
+	</script>
+
+ </body>
+ </html>

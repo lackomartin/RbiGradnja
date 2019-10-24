@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<title>RBI-gradnja d.o.o.</title>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+ 	<meta name="description" content="RBI- gradnja d.o.o. tvrtka je koja pruža razne građevinske usluge." >
+    <meta name="keywords" content="gradnja, građevinske, usluge, soboslikarski, radovi, knauf, sistemi, fasaderski, štukaturski, radovi, građevina">
+    <meta name="author" content="Martin Lacko">
+ 	<link rel="stylesheet" href="css/style.css">
+ 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 	<link rel="icon" href="images/icon.jpg">
+ 	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+ 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="js/fade.js"></script>
+ </head>
+
+ <body>
+
+ 	<header>
+ 		<div class="header">
+ 			<div class="menu_section">
+        <a href="index.html"><img src="images/logo.png" class="logo"></a>
+ 			 <nav>
+ 			 	<li><a href="index.html">Početna</a></li>
+ 			 	<li><a href="o_nama.html">O nama</a></li>
+ 			 	<li><a href="usluge.html">Usluge</a></li>
+ 			 	<li><a href="kontakt.html">Kontakt</a></li>
+ 			 </nav>
+ 			</div>
+ 			<img src="images/header.jpg" class="background">
+               <h1>RBI - gradnja d.o.o. </h1>
+              <p class="slogan">Završni radovi u građevini</p>
+ 		</div>
+
+    <!--responsive menu -->
+    <div class="hamburger-menu">
+      <div class="bar"></div>  
+    </div>    
+            
+    <script>
+    (function () {
+      $('.hamburger-menu').on('click', function() {
+      $('.bar').toggleClass('animate');
+      var mobileNav = $('.mobile-nav');
+      mobileNav.toggleClass('hide show');
+    })
+    })();    
+    </script>
+        
+        
+    <div class="mobile-nav hide">
+    <ul>
+      <div class="li"><a href="index.html">početna</a></div>
+      <div class="li"><a href="o_nama.html">o nama</a></div>
+      <div class="li"><a href="usluge.html">usluge</a></div>
+      <div class="li"><a href="kontakt.html">kontakt</a></div>
+    </ul>
+   </div>       
+   <!--end of responsive menu -->
+
+ 	</header>
+
+ 	<div class="about_section">
+ 		<img src="images/decoration.jpg" class="decoration">
+ 		<div data-aos="fade-up" data-aos-duration="1500" class="h2">
+ 		 <h2>TKO SMO MI?</h2>
+ 		</div>
+ 		   <p data-aos="fade-up" data-aos-duration="2000" class="about_index">
+ 			 RBI- gradnja d.o.o. tvrtka je koja pruža razne građevinske usluge poput soboslikarskih radova, knauf sistema, fasaderskih i štukaturskih radova i sl. Za izvođenje usluga koristi se najnovija oprema i materijali renomiranih brandova uz najbolji omjer cijena. Dugogodišnjim iskustvom stečen je status povjerljive tvrtke koja posluje na području Republike Hrvatske i šire. 
+ 		  </p>
+ 	</div>
+
+ 	<div data-aos="flip-up" data-aos-duration="1000" class="contactUs_section">
+ 		<div class="decoration_txt">Kontaktirajte nas</div>
+ 		<div class="contactUs">ŽELITE OBNOVITI SVOJ DOM?</div>
+ 		<a href="kontakt.html"><div class="contact_link">Pošaljite nam svoje podatke i poruku</div></a>
+ 	</div>
+
+ 	<div data-aos="fade-up" data-aos-duration="1500" class="index_services">
+ 		<div class="image_section">
+ 			<img src="images/image_index.jpg" style="width: 100%; height: 100%;">
+ 			 <h3>NAŠE USLUGE</h3>
+ 			 <p class="services_txt">Pogledajte usluge koje nudimo</p>
+ 			<a href="usluge.html"><div class="services_button">USLUGE</div></a>
+ 		</div>
+ 	</div>
+
+  <div class="con_section_info" data-aos="fade-up" data-aos-duration="1000">
+      <div class="image_space"><img src="images/telephone.png" class="image_info_con"></div>
+        <p class="con_info">Mobitel:<br> 098 792 286</p>
+      <div class="image_space"><img src="images/location.png" class="image_info_con"></div>
+        <p class="con_info">Vladimira Nazora 23<br> 42206 Petrijanec</p>
+      <div class="image_space"><img src="images/email.png" class="image_info_con"></div>
+        <p class="con_info">E-mail:<br> ivica.rusec@gmail.com</p>
+  </div>
+
+  <!-- contact section info responsive -->
+  <div class="res_con_info" data-aos="fade-up" data-aos-duration="1000">
+    <div class="res_img_spc">
+      <div class="res_img"><img src="images/telephone.png" class="res_info_img"></div>
+      <div class="res_img"><img src="images/location.png" class="res_info_img"></div>
+      <div class="res_img"><img src="images/email.png" class="res_info_img"></div>
+    </div>
+
+    <div class="res_info_spc">
+        <p class="res_info">Mobitel:<br> 098 792 286</p>
+        <p class="res_info">Vladimira Nazora 23<br> 42206 Petrijanec</p>
+        <p class="res_info">E-mail:<br> ivica.rusec@gmail.com</p>
+    </div>
+  </div>
+
+ 	<footer>
+ 		<img src="images/decoration1.jpg" class="decoration">
+ 		<p class="year"></p>
+ 		<script type="text/javascript">
+ 			const year = new Date().getFullYear();
+ 			document.querySelector('.year').innerHTML = `RBI - gradnja d.o.o. &copy; All rights reserved | ${year}`;
+ 		</script>
+ 	</footer>
+
+    <!-- AOS -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  	
+    <script>
+		AOS.init({
+			easing: 'ease',
+			once: true,
+		});
+		AOS.refresh();
+	</script>
+
+
+ </body>
+</html>
